@@ -46,7 +46,7 @@ func dump(db *bolt.DB) error {
 func main() {
 	// check we have a filename
 	if len(os.Args) < 2 {
-		fmt.Printf("Usage: %s <filename.db>", os.Args[0])
+		fmt.Printf("Usage: %s <filename.db>\n", os.Args[0])
 		os.Exit(2)
 	}
 
